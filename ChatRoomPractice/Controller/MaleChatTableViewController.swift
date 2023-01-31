@@ -25,7 +25,7 @@ class MaleChatViewController: UIViewController {
         viewOfTextView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
         viewOfTextView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
         viewOfTextView.bottomAnchor.constraint(equalTo: view.keyboardLayoutGuide.topAnchor).isActive = true
-        viewOfTextView.topAnchor.constraint(greaterThanOrEqualTo: view.safeAreaLayoutGuide.topAnchor, constant: 200).isActive = true
+        viewOfTextView.topAnchor.constraint(equalTo: maleChatTableView.bottomAnchor).isActive = true
 
     }
     

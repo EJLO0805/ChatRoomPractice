@@ -54,6 +54,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="femaleContent" destination="6m9-So-pcY" id="f3p-3U-eHe"/>
+                                            <outlet property="femaleImage" destination="MUT-3z-sfi" id="9XX-Tr-y5g"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="maleCellOfMale" rowHeight="87" id="Ps7-KB-2tM" customClass="MaleTableViewCell" customModule="ChatRoomPractice" customModuleProvider="target">
@@ -89,6 +90,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="maleContent" destination="wYe-e1-c6A" id="UQA-2Z-nZa"/>
+                                            <outlet property="maleImage" destination="tic-nl-oIK" id="B4u-xj-ExH"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -295,6 +297,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="maleContent" destination="h1B-pq-sgq" id="4vF-Pz-0RP"/>
+                                            <outlet property="maleImage" destination="mcb-3T-QTF" id="NZW-Sh-E1g"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="femaleCellOfFemale" rowHeight="86" id="Lcu-1S-gpo" customClass="FemaleTableViewCell" customModule="ChatRoomPractice" customModuleProvider="target">
@@ -330,6 +333,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="femaleContent" destination="qoF-vy-gX5" id="KDy-3e-fXK"/>
+                                            <outlet property="femaleImage" destination="d1f-Sw-0bV" id="C5Y-AT-wdw"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

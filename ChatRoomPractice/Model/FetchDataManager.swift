@@ -9,7 +9,7 @@ import Foundation
 
 
 struct FetchData{
-    private static var apiKey : String = "Bearer APIKey"
+    private static var apiKey : String = "Bearer YourAPIKey"
     private static var apiHeaderField : String = "Authorization"
     private static var apiKeyOfPost : String = "application/json"
     private static var apiHeaderFieldOfPost : String = "Content-Type"

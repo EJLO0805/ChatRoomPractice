@@ -26,7 +26,7 @@ class FemaleChatViewController: UIViewController {
         viewOfTextView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
         viewOfTextView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
         viewOfTextView.bottomAnchor.constraint(equalTo: view.keyboardLayoutGuide.topAnchor).isActive = true
-        viewOfTextView.topAnchor.constraint(greaterThanOrEqualTo: view.safeAreaLayoutGuide.topAnchor, constant: 200).isActive = true
+        viewOfTextView.topAnchor.constraint(equalTo: femaleChatTableView.bottomAnchor).isActive = true
 
     }
     
@@ -148,11 +148,6 @@ extension FemaleChatViewController : UITextViewDelegate {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.01) { [self] in
             femaleChatTableView.scrollToRow(at: [0,chatRecords.count-1], at: .bottom, animated: true)
         }
-    }
-    
-    func textViewDidEndEditing(_ textView: UITextView) {
-        print(femaleChatTableView.frame.height)
-        femaleChatTableView.scrollToRow(at: [0,chatRecords.count-1], at: .bottom, animated: true)
     }
     
     func textViewDidChange(_ textView: UITextView) {
